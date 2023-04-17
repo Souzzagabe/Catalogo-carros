@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serifß;
+}
+
+html,
+body,
+header {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    background: #F78B00;
+    height: 450px;
+    z-index: 1;
+}
+
+.conteiner {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;   
+}
+
+.logo {
+    font-size: 24px;
+    color: #00285f;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.ul li a {
+    color: #00285f;
+    text-decoration: none;
+}
+
+.ul button {
+    padding: 9px 40px;
+    background: transparent;
+    border: 1px solid #00285f;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #00285f;
+    font-weight: bold;
+
+}
+
+.segundo-header {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background: #00285f;
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px 0 px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    color: white;
+}
+
+.intro h2 {
+    font-size: 32px;
+    max-width: 420px;
+}
+.intro p {
+    max-width: 420px;
+}
+
+.foto-carro {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.segundo-header img {
+    width: 98%;
+}
