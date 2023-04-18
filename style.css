@@ -18,8 +18,7 @@ header {
 .header {
     width: 100%;
     background: #F78B00;
-    height: 450px;
-    z-index: 1;
+    
 }
 
 .conteiner {
@@ -78,11 +77,10 @@ header {
     background: #00285f;
     border-radius: 10px;
     box-shadow: 1px 0px 10px 0 px rgba(0, 0, 0, 0.5);
-    z-index: 9999;
+    z-index: 10;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     
 }
 
@@ -95,11 +93,11 @@ header {
 }
 
 .intro h2 {
-    font-size: 32px;
+ font-size: 32px;
     max-width: 420px;
 }
 .intro p {
-    max-width: 420px;
+    max-width: 380px;
 }
 
 .foto-carro {
@@ -110,4 +108,21 @@ header {
 
 .segundo-header img {
     width: 98%;
+}
+
+.conteiner-catalog {
+    width: 100vw;
+    padding: 100px;
+}
+
+.pesquisa {
+    width: 980px;
+    height: 150px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
