@@ -1,2 +1,2 @@
 # Desafio-Carros
- Desafio
+O desafio consiste em criar um catálogo de carros utilizando HTML e CSS.
